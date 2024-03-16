@@ -1,5 +1,10 @@
+# Metadata
 name: terraform-deployment
+
+# Trigger
 'on': push
+
+# Jobs
 jobs:
   my-job:
     runs-on: ubuntu-latest
